@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(126, 240, 240);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    padding: 15px;
+}
+.col-20{
+    width: 20%;
+    background-color: orange;
+    border: 1px dashed black;
+    
+}
+.col-60{
+    width: 60%;
+    background-color: orange;    
+    border: 1px dashed black;
+}
+.link{
+    text-align: center;
+}
+ul.link{
+    list-style-type: none;   
+}
+ul li{
+    display: inline-block;
+}
+.testo-destra{
+    text-align: right;
+}
+.pad{
+    padding: 10px 0;
+}
